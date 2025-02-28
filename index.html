@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Trinetra - CCTV Camera Website </title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-5">
+        <div class="row gx-4 d-none d-lg-flex">
+            <div class="col-lg-6 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="fa fa-map-marker-alt text-white"></small>
+                    </div>
+                    <small>226022, Lucknow , India</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="fa fa-envelope-open text-white"></small>
+                    </div>
+                    <small>saniyadav7755@gmail.com</small>
+                </div>
+            </div>
+            <div class="col-lg-6 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="fa fa-phone-alt text-white"></small>
+                    </div>
+                    <small>+91 7755027538</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="far fa-clock text-white"></small>
+                    </div>
+                    <small>Mon - Fri : 9AM - 9PM</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <h2 class="m-0 text-primary">Trinetra CCTV</h2>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-4 py-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="service.html" class="nav-item nav-link">Service</a>
+                <a href="project.html" class="nav-item nav-link">Project</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+                        <a href="feature.html" class="dropdown-item">Feature</a>
+                        <a href="quote.html" class="dropdown-item">Free Quote</a>
+                        <a href="team.html" class="dropdown-item">Our Team</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        <a href="404.html" class="dropdown-item">404 Page</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <div class="h-100 d-lg-inline-flex align-items-center d-none">
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2"
+                    href="https://www.facebook.com/share/p/18G9gMg6bS/"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2"
+                    href="https://x.com/imsaniydv2?s=09"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2"
+                    href="https://www.linkedin.com/posts/sani-yadav-986778292_its-been-a-while-since-i-started-my-role-activity-7286745532507508737-wWFW?utm_source=share&utm_medium=member_android&rcm=ACoAAEby5nYBxaVo5anUJ8LGdqnjTBjwZGbgXtM"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-0"
+                    href="https://www.instagram.com/imsani2.0?igsh=OGQ5ZDc2ODk2ZA=="><i
+                        class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 pb-5">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                <div class="carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-8 text-center">
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Best CCTV & Security Solution
+                                    For You</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Advanced Security | HD Cameras | 24/7 Monitoring |
+                                    Motion Alerts | Smart AI | Night Vision | Remote Access | Safe & Secure Protection
+                                </p>
+                                <a href=""
+                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Read
+                                    More</a>
+                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Free
+                                    Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                <div class="carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-8 text-center">
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Smart Security Solution For
+                                    All Business</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Comprehensive, advanced security solutions with
+                                    scalable systems to safeguard assets against physical and cyber threats. Trusted by
+                                    businesses for reliable, innovative protection.</p>
+                                <a href=""
+                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Read
+                                    More</a>
+                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Free
+                                    Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-3.jpg" alt="">
+                <div class="carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-8 text-center">
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Innovative Solution For
+                                    Security System</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Cutting-edge surveillance technology,
+                                    real-time analytics, advanced access control, seamless integration, and scalable
+                                    systems ensure your security needs are met</p>
+                                <a href=""
+                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Read
+                                    More</a>
+                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Free
+                                    Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Facts Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="h-100 bg-dark p-4 p-xl-5">
+                        <div class="d-flex align-items-center justify-content-between mb-4">
+                            <div class="btn-square rounded-circle"
+                                style="width: 64px; height: 64px; background: #000000;">
+                                <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon">
+                            </div>
+                            <h1 class="display-1 mb-0" style="color: #000000;">01</h1>
+                        </div>
+                        <h5 class="text-white">Home Security</h5>
+                        <hr class="w-25">
+                        <span>Advanced home security solutions with 24/7 monitoring, smart sensors, remote access, and
+                            rapid response technology, ensuring your family's safety.</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="h-100 bg-dark p-4 p-xl-5">
+                        <div class="d-flex align-items-center justify-content-between mb-4">
+                            <div class="btn-square rounded-circle"
+                                style="width: 64px; height: 64px; background: #000000;">
+                                <img class="img-fluid" src="img/icon/icon-4.png" alt="Icon">
+                            </div>
+                            <h1 class="display-1 mb-0" style="color: #000000;">02</h1>
+                        </div>
+                        <h5 class="text-white">Access Control</h5>
+                        <hr class="w-25">
+                        <span>Advanced access control systems provide secure authentication, real-time monitoring, and
+                            integration to enhance management efficiency.</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="h-100 bg-dark p-4 p-xl-5">
+                        <div class="d-flex align-items-center justify-content-between mb-4">
+                            <div class="btn-square rounded-circle"
+                                style="width: 64px; height: 64px; background: #000000;">
+                                <img class="img-fluid" src="img/icon/icon-2.png" alt="Icon">
+                            </div>
+                            <h1 class="display-1 mb-0" style="color: #000000;">03</h1>
+                        </div>
+                        <h5 class="text-white">24/7 Support</h5>
+                        <hr class="w-25">
+                        <span>Our dedicated 24/7 support team provides round-the-clock real-time assistance, rapid
+                            response, and efficient service for all your security needs.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Facts Start -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container about px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/about.jpg"
+                            style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 pe-lg-0">
+                        <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
+                        <h1 class="display-5 mb-4">About Us</h1>
+                        <p class="mb-4 pb-2">Dedicated to excellence, our team delivers innovative security solutions,
+                            cutting-edge technology, and exceptional support to ensure peace of mind.</p>
+                        <div class="row g-4 mb-4 pb-3">
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
+                                        <img class="img-fluid" src="img/icon/icon-1.png" alt="Icon">
+                                    </div>
+                                    <div class="ms-4">
+                                        <h2 class="mb-1" data-toggle="counter-up">134</h2>
+                                        <p class="fw-medium text-primary mb-0">Happy Clients</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
+                                        <img class="img-fluid" src="img/icon/icon-5.png" alt="Icon">
+                                    </div>
+                                    <div class="ms-4">
+                                        <h2 class="mb-1" data-toggle="counter-up">120</h2>
+                                        <p class="fw-medium text-primary mb-0">Projects Done</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="" class="btn btn-primary rounded-pill py-3 px-5">Explore More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center">
+                <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
+                <h1 class="display-5 mb-5">Our Services</h1>
+            </div>
+            <div class="row g-0 service-row">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="service-item border h-100 p-5">
+                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
+                            <img class="img-fluid" src="img/icon/icon-6.png" alt="Icon">
+                        </div>
+                        <h4 class="mb-3">Commercial CCTV System</h4>
+                        <p class="mb-4">Commercial CCTV systems with 24/7 surveillance, analytics, and secure
+                            protection.</p>
+                        <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="service-item border h-100 p-5">
+                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
+                            <img class="img-fluid" src="img/icon/icon-8.png" alt="Icon">
+                        </div>
+                        <h4 class="mb-3">Finger Print Access</h4>
+                        <p class="mb-4">Advanced fingerprint access ensures secure, efficient, and seamless entry
+                            control.</p>
+                        <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="service-item border h-100 p-5">
+                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
+                            <img class="img-fluid" src="img/icon/icon-9.png" alt="Icon">
+                        </div>
+                        <h4 class="mb-3">Fire Detection And Safety</h4>
+                        <p class="mb-4">Instant fire detection with rapid alerts and proactive safety measures.</p>
+                        <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="service-item border h-100 p-5">
+                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
+                            <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon">
+                        </div>
+                        <h4 class="mb-3">Smart Home Security</h4>
+                        <p class="mb-4">Smart home security with automated alerts, remote control, and monitoring.</p>
+                        <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Feature Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container feature px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 ps-lg-0">
+                        <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
+                        <h1 class="display-5 mb-5">Why Choose Us</h1>
+                        <p class="mb-4 pb-2">Choose us for unparalleled quality, innovative technology, 24/7 support,
+                            and custom security solutions that guarantee your peace of mind.</p>
+                        <div class="row g-4">
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
+                                        <img class="img-fluid" src="img/icon/icon-7.png" alt="Icon">
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="text-primary mb-2">Trusted</p>
+                                        <h5 class="mb-0">Security</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
+                                        <img class="img-fluid" src="img/icon/icon-10.png" alt="Icon">
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="text-primary mb-2">Quality</p>
+                                        <h5 class="mb-0">Services</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
+                                        <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon">
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="text-primary mb-2">Smart</p>
+                                        <h5 class="mb-0">Systems</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
+                                        <img class="img-fluid" src="img/icon/icon-2.png" alt="Icon">
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="text-primary mb-2">24/7 Hours</p>
+                                        <h5 class="mb-0">Support</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pe-lg-0" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/feature.jpg"
+                            style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+    <!-- Projects Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
+                <h1 class="display-5 mb-5">Our Projects</h1>
+            </div>
+            <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-12 text-center">
+                    <ul class="list-inline mb-5" id="portfolio-flters">
+                        <li class="mx-2 active" data-filter="*">All</li>
+                        <li class="mx-2" data-filter=".first">Complete Projects</li>
+                        <li class="mx-2" data-filter=".second">Ongoing Projects</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container">
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">Business Security</p>
+                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Business Security</p>
+                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-1.jpg"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                        class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">Fire Detection</p>
+                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Fire Detection</p>
+                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-2.jpg"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                        class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">Access Control</p>
+                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Access Control</p>
+                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-3.jpg"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                        class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">Alarm Systems</p>
+                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Alarm Systems</p>
+                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-4.jpg"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                        class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">CCTV & Video</p>
+                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">CCTV & Video</p>
+                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-5.jpg"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                        class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">Smart Home</p>
+                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Smart Home</p>
+                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-6.jpg"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                        class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects End -->
+
+
+    <!-- Quote Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container quote px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/quote.jpg"
+                            style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 pe-lg-0">
+                        <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
+                        <h1 class="display-5 mb-5">Free Quote</h1>
+                        <p class="mb-4 pb-2">Receive a free, no-obligation quote today and let our trusted experts
+                            tailor a comprehensive security solution just for you.</p>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Your Name"
+                                        style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" class="form-control border-0" placeholder="Your Email"
+                                        style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Your Mobile"
+                                        style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <select class="form-select border-0" style="height: 55px;">
+                                        <option selected>Select A Service</option>
+                                        <option value="1">Service 1</option>
+                                        <option value="2">Service 2</option>
+                                        <option value="3">Service 3</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control border-0" placeholder="Special Note"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Get A Free Quote</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Quote End -->
+
+
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
+                <h1 class="display-5 mb-5">Team Members</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <div class="overflow-hidden position-relative">
+                            <img class="img-fluid" src="img/sani01.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square btn-dark rounded-circle m-1"
+                                    href="https://www.facebook.com/share/1A2kPBF3UE/"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1"
+                                    href="https://x.com/imsaniydv2?s=09"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1"
+                                    href="https://www.instagram.com/imsani2.0?igsh=OGQ5ZDc2ODk2ZA=="><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Sani Yadav</h5>
+                            <span class="text-primary">Hardware & Networking Engineer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="overflow-hidden position-relative">
+                            <img class="img-fluid" src="img/klydv2.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square btn-dark rounded-circle m-1"
+                                    href="https://www.facebook.com/share/1A2kPBF3UE/"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1"
+                                    href="https://x.com/imsaniydv2?s=09"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1"
+                                    href="https://www.instagram.com/imsani2.0?igsh=OGQ5ZDc2ODk2ZA=="><i
+                                        class="fab fa-instagram"></i></a>
+
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Kanahiya Yadav</h5>
+                            <span class="text-primary"> AI/ML Engineer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <div class="overflow-hidden position-relative">
+                            <img class="img-fluid" src="img/saurbh.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square btn-dark rounded-circle m-1"
+                                    href="https://www.facebook.com/share/1A2kPBF3UE/"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1"
+                                    href="https://x.com/imsaniydv2?s=09"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1"
+                                    href="https://www.instagram.com/imsani2.0?igsh=OGQ5ZDc2ODk2ZA=="><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Saurbh Yadav</h5>
+                            <span class="text-primary"> Marketing & Sales Expert</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="overflow-hidden position-relative">
+                            <img class="img-fluid" src="img/sani-profile.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square btn-dark rounded-circle m-1"
+                                    href="https://www.facebook.com/share/1A2kPBF3UE/"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1"
+                                    href="https://x.com/imsaniydv2?s=09"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1"
+                                    href="https://www.instagram.com/imsani2.0?igsh=OGQ5ZDc2ODk2ZA=="><i
+                                        class="fab fa-instagram"></i></a>
+
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Sani Yadav</h5>
+                            <span class="text-primary">Software Developer (Full Stack)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
+                <h1 class="display-5 mb-5">What Our Clients Say</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item text-center"
+                data-dot="<img class='img-fluid' src='https://pbs.twimg.com/media/Gk0YT2RXgAATCZP?format=jpg&name=small' alt=''>">
+                    
+                    <p class="fs-5">As the visionary behind the Tirnetra Camera project, I strive to innovate surveillance technology, ensuring security, efficiency, and reliability.</p>
+                    <h4>Sani Yadav</h4>
+                    <span class="text-primary">KLTech CEO</span>
+                </div>
+                <div class="testimonial-item text-center"
+                    data-dot="<img class='img-fluid' src='data:image/webp;base64,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RQIAABoBBQABAAAAYAIAABsBBQABAAAAaAIAAAAAAABFbG9uIE11c2ssIGNoaWVmIGV4ZWN1dGl2ZSBvZmZpY2VyIG9mIFRlc2xhIEluYy4sIGR1cmluZyB0aGUgNjB0aCBwcmVzaWRlbnRpYWwgaW5hdWd1cmF0aW9uIGluIHRoZSByb3R1bmRhIG9mIHRoZSBVUyBDYXBpdG9sIGluIFdhc2hpbmd0b24sIERDLCBVUywgb24gTW9uZGF5LCBKYW4uIDIwLCAyMDI1LiBEb25hbGQgVHJ1bXAncyBNb25kYXkgc3dlYXJpbmctaW4gbWFya3MganVzdCB0aGUgc2Vjb25kIHRpbWUgaW4gVVMgaGlzdG9yeSB0aGF0IGEgcHJlc2lkZW50IGxvc3QgdGhlIG9mZmljZSBhbmQgbWFuYWdlZCB0byByZXR1cm4gdG8gcG93ZXIgLSBhIGNvbWViYWNrIGNlbWVudGluZyBoaXMgcGxhY2Ugd2l0aGluIHRoZSBSZXB1YmxpY2FuIFBhcnR5IGFzIGFuIGVuZHVyaW5nLCB0cmFuc2Zvcm1hdGlvbmFsIGZpZ3VyZSByYXRoZXIgdGhhbiBhIG9uZS10ZXJtIGFiZXJyYXRpb24uIFBob3RvZ3JhcGhlcjogQ2hpcCBTb21vZGV2aWxsYS9HZXR0eSBJbWFnZXMvQmxvb21iZXJnIHZpYSBHZXR0eSBJbWFnZXM/IDIwMjUgQmxvb21iZXJnIEZpbmFuY2UgTFAsAQAAAQAAACwBAAABAAAAWE1QIJUHAABodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+Cjx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iPgoJPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KCQk8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczpwaG90b3Nob3A9Imh0dHA6Ly9ucy5hZG9iZS5jb20vcGhvdG9zaG9wLzEuMC8iIHhtbG5zOklwdGM0eG1wQ29yZT0iaHR0cDovL2lwdGMub3JnL3N0ZC9JcHRjNHhtcENvcmUvMS4wL3htbG5zLyIgICB4bWxuczpHZXR0eUltYWdlc0dJRlQ9Imh0dHA6Ly94bXAuZ2V0dHlpbWFnZXMuY29tL2dpZnQvMS4wLyIgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIiB4bWxuczpwbHVzPSJodHRwOi8vbnMudXNlcGx1cy5vcmcvbGRmL3htcC8xLjAvIiAgeG1sbnM6aXB0Y0V4dD0iaHR0cDovL2lwdGMub3JnL3N0ZC9JcHRjNHhtcEV4dC8yMDA4LTAyLTI5LyIgeG1sbnM6eG1wUmlnaHRzPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvcmlnaHRzLyIgZGM6UmlnaHRzPSLCqSAyMDI1IEJsb29tYmVyZyBGaW5hbmNlIExQIiBwaG90b3Nob3A6Q3JlZGl0PSJCbG9vbWJlcmcgdmlhIEdldHR5IEltYWdlcyIgR2V0dHlJbWFnZXNHSUZUOkFzc2V0SUQ9IjIxOTQzNTgzMjMiIHhtcFJpZ2h0czpXZWJTdGF0ZW1lbnQ9Imh0dHBzOi8vd3d3LmdldHR5aW1hZ2VzLmNvbS9ldWxhP3V0bV9tZWRpdW09b3JnYW5pYyZhbXA7dXRtX3NvdXJjZT1nb29nbGUmYW1wO3V0bV9jYW1wYWlnbj1pcHRjdXJsIiBwbHVzOkRhdGFNaW5pbmc9Imh0dHA6Ly9ucy51c2VwbHVzLm9yZy9sZGYvdm9jYWIvRE1JLVBST0hJQklURUQtRVhDRVBUU0VBUkNIRU5HSU5FSU5ERVhJTkciID4KPGRjOmNyZWF0b3I+PHJkZjpTZXE+PHJkZjpsaT5CbG9vbWJlcmc8L3JkZjpsaT48L3JkZjpTZXE+PC9kYzpjcmVhdG9yPjxkYzpkZXNjcmlwdGlvbj48cmRmOkFsdD48cmRmOmxpIHhtbDpsYW5nPSJ4LWRlZmF1bHQiPkVsb24gTXVzaywgY2hpZWYgZXhlY3V0aXZlIG9mZmljZXIgb2YgVGVzbGEgSW5jLiwgZHVyaW5nIHRoZSA2MHRoIHByZXNpZGVudGlhbCBpbmF1Z3VyYXRpb24gaW4gdGhlIHJvdHVuZGEgb2YgdGhlIFVTIENhcGl0b2wgaW4gV2FzaGluZ3RvbiwgREMsIFVTLCBvbiBNb25kYXksIEphbi4gMjAsIDIwMjUuIERvbmFsZCBUcnVtcCZhcG9zO3MgTW9uZGF5IHN3ZWFyaW5nLWluIG1hcmtzIGp1c3QgdGhlIHNlY29uZCB0aW1lIGluIFVTIGhpc3RvcnkgdGhhdCBhIHByZXNpZGVudCBsb3N0IHRoZSBvZmZpY2UgYW5kIG1hbmFnZWQgdG8gcmV0dXJuIHRvIHBvd2VyIC0gYSBjb21lYmFjayBjZW1lbnRpbmcgaGlzIHBsYWNlIHdpdGhpbiB0aGUgUmVwdWJsaWNhbiBQYXJ0eSBhcyBhbiBlbmR1cmluZywgdHJhbnNmb3JtYXRpb25hbCBmaWd1cmUgcmF0aGVyIHRoYW4gYSBvbmUtdGVybSBhYmVycmF0aW9uLiBQaG90b2dyYXBoZXI6IENoaXAgU29tb2RldmlsbGEvR2V0dHkgSW1hZ2VzL0Jsb29tYmVyZyB2aWEgR2V0dHkgSW1hZ2VzPC9yZGY6bGk+PC9yZGY6QWx0PjwvZGM6ZGVzY3JpcHRpb24+CjxwbHVzOkxpY2Vuc29yPjxyZGY6U2VxPjxyZGY6bGkgcmRmOnBhcnNlVHlwZT0nUmVzb3VyY2UnPjxwbHVzOkxpY2Vuc29yVVJMPmh0dHBzOi8vd3d3LmdldHR5aW1hZ2VzLmNvbS9kZXRhaWwvMjE5NDM1ODMyMz91dG1fbWVkaXVtPW9yZ2FuaWMmYW1wO3V0bV9zb3VyY2U9Z29vZ2xlJmFtcDt1dG1fY2FtcGFpZ249aXB0Y3VybDwvcGx1czpMaWNlbnNvclVSTD48L3JkZjpsaT48L3JkZjpTZXE+PC9wbHVzOkxpY2Vuc29yPgoJCTwvcmRmOkRlc2NyaXB0aW9uPgoJPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KPD94cGFja2V0IGVuZD0idyI/PgoA' alt=''>">
+                    <p class="fs-5">As an aspiring entrepreneur, I am developing the Tirnetra Camera project to revolutionize surveillance and smart security solutions with advanced technology.</p>
+                    <h4>Elon Musk</h4>
+                    <span class="text-primary">Entrepreneur</span>
+                </div>
+                <div class="testimonial-item text-center"
+                    data-dot="<img class='img-fluid' src='https://pbs.twimg.com/media/Gk0by6FWYAE_HQJ?format=jpg&name=small' alt=''>">
+                    <p class="fs-5">Revolutionizing imaging technology to capture, process, and enhance visuals with AI-powered precision for a smarter photography experience.</p>
+                    <h4>Satya Nadella</h4>
+                    <span class="text-primary">CEO Microsoft</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-secondary footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Address</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>226022 , Lucknow, India</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 7755027538</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>saniyadav7755@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href="https://x.com/imsaniydv2?s=09"><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href="https://www.facebook.com/share/p/18G9gMg6bS/"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href="https://youtube.com/@saurabhyadavup44?si=kpNfmMTErCF5bQzM"><i
+                                class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href="https://www.linkedin.com/posts/sani-yadav-986778292_its-been-a-while-since-i-started-my-role-activity-7286745532507508737-wWFW?utm_source=share&utm_medium=member_android&rcm=ACoAAEby5nYBxaVo5anUJ8LGdqnjTBjwZGbgXtM"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Services</h5>
+                    <a class="btn btn-link" href="">Business Security</a>
+                    <a class="btn btn-link" href="">Fire Detection</a>
+                    <a class="btn btn-link" href="">Alarm Systems</a>
+                    <a class="btn btn-link" href="">CCTV & Video</a>
+                    <a class="btn btn-link" href="">Smart Home</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Quick Links</h5>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Newsletter</h5>
+                    <p>Stay updated with new insights, news, and opportunities—Join our newsletter! </p>
+                    <div class="position-relative w-100">
+                        <input class="form-control bg-transparent border-secondary w-100 py-3 ps-4 pe-5" type="text"
+                            placeholder="Your email">
+                        <button type="button"
+                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid py-4" style="background: #000000;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#"> 2025 Trinetra CCTV </a>, All Rights Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    Designed By <a class="border-bottom" href="....">:Er.Sani Yadav</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
